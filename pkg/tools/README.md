@@ -9,7 +9,7 @@ LLM Tooling package for groq-go.
 # tools
 
 ```go
-import "github.com/conneroisu/groq-go/pkg/tools"
+import "github.com/emilpriver/groq-go/pkg/tools"
 ```
 
 Package tools contains the interfaces for groq\-go tooling usable by llms.
@@ -28,7 +28,7 @@ Package tools contains the interfaces for groq\-go tooling usable by llms.
 
 
 <a name="FunctionCall"></a>
-## type [FunctionCall](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L62-L67>)
+## type [FunctionCall](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L62-L67>)
 
 FunctionCall represents a function call.
 
@@ -42,7 +42,7 @@ type FunctionCall struct {
 ```
 
 <a name="FunctionDefinition"></a>
-## type [FunctionDefinition](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L33-L37>)
+## type [FunctionDefinition](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L33-L37>)
 
 FunctionDefinition represents the function definition.
 
@@ -55,7 +55,7 @@ type FunctionDefinition struct {
 ```
 
 <a name="FunctionParameters"></a>
-## type [FunctionParameters](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L39-L44>)
+## type [FunctionParameters](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L39-L44>)
 
 FunctionParameters represents the function parameters of a tool.
 
@@ -69,7 +69,7 @@ type FunctionParameters struct {
 ```
 
 <a name="PropertyDefinition"></a>
-## type [PropertyDefinition](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L46-L49>)
+## type [PropertyDefinition](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L46-L49>)
 
 PropertyDefinition represents the property definition.
 
@@ -81,7 +81,7 @@ type PropertyDefinition struct {
 ```
 
 <a name="Tool"></a>
-## type [Tool](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L10-L15>)
+## type [Tool](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L10-L15>)
 
 Tool represents the tool.
 
@@ -95,7 +95,7 @@ type Tool struct {
 ```
 
 <a name="ToolCall"></a>
-## type [ToolCall](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L51-L60>)
+## type [ToolCall](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L51-L60>)
 
 ToolCall represents a tool call.
 
@@ -113,7 +113,7 @@ type ToolCall struct {
 ```
 
 <a name="ToolChoice"></a>
-## type [ToolChoice](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L21-L26>)
+## type [ToolChoice](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L21-L26>)
 
 ToolChoice represents the tool choice.
 
@@ -127,7 +127,7 @@ type ToolChoice struct {
 ```
 
 <a name="ToolFunction"></a>
-## type [ToolFunction](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L28-L31>)
+## type [ToolFunction](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L28-L31>)
 
 ToolFunction represents the tool function.
 
@@ -139,7 +139,7 @@ type ToolFunction struct {
 ```
 
 <a name="ToolType"></a>
-## type [ToolType](<https://github.com/conneroisu/groq-go/blob/main/pkg/tools/tools.go#L19>)
+## type [ToolType](<https://github.com/emilpriver/groq-go/blob/main/pkg/tools/tools.go#L19>)
 
 ToolType is the tool type.
 

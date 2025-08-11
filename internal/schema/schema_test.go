@@ -18,7 +18,7 @@ import (
 )
 
 func TestID(t *testing.T) {
-	base := "https://github.com/conneroisu/groq-go/schema"
+	base := "https://github.com/emilpriver/groq-go/schema"
 	id := schemaID(base)
 
 	assert.Equal(t, base, string(id))
@@ -451,7 +451,7 @@ func TestReflectFromType(t *testing.T) {
 	s := r.ReflectFromType(typ)
 	assert.EqualValues(
 		t,
-		"https://github.com/conneroisu/groq-go/internal/schema/test-user",
+		"https://github.com/emilpriver/groq-go/internal/schema/test-user",
 		s.ID,
 	)
 

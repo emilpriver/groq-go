@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/conneroisu/groq-go/internal/schema/min-value",
+  "$id": "https://github.com/emilpriver/groq-go/internal/schema/min-value",
   "$ref": "#/$defs/MinValue",
   "$defs": {
     "MinValue": {

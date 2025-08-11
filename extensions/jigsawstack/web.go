@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/conneroisu/groq-go/pkg/builders"
+	"github.com/emilpriver/groq-go/pkg/builders"
 )
 
 const (

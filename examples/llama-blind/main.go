@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/conneroisu/groq-go"
+	"github.com/emilpriver/groq-go"
 )
 
 func main() {

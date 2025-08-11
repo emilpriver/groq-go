@@ -7,7 +7,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/conneroisu/groq-go/pkg/builders"
+	"github.com/emilpriver/groq-go/pkg/builders"
 )
 
 const (

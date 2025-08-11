@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/conneroisu/groq-go/pkg/groqerr"
+	"github.com/emilpriver/groq-go/pkg/groqerr"
 )
 
 type (

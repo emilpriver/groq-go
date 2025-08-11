@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/conneroisu/groq-go/pkg/builders"
-	"github.com/conneroisu/groq-go/internal/test"
-	"github.com/conneroisu/groq-go/pkg/tools"
+	"github.com/emilpriver/groq-go/pkg/builders"
+	"github.com/emilpriver/groq-go/internal/test"
+	"github.com/emilpriver/groq-go/pkg/tools"
 	"github.com/stretchr/testify/assert"
 )
 

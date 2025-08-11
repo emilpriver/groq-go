@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/conneroisu/groq-go/extensions/e2b"
-	"github.com/conneroisu/groq-go/internal/test"
+	"github.com/emilpriver/groq-go/extensions/e2b"
+	"github.com/emilpriver/groq-go/internal/test"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/conneroisu/groq-go/extensions/toolhouse"
-	"github.com/conneroisu/groq-go/internal/test"
-	"github.com/conneroisu/groq-go/pkg/tools"
+	"github.com/emilpriver/groq-go/extensions/toolhouse"
+	"github.com/emilpriver/groq-go/internal/test"
+	"github.com/emilpriver/groq-go/pkg/tools"
 	"github.com/stretchr/testify/assert"
 )
 

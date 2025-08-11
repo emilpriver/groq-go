@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/conneroisu/groq-go"
-	"github.com/conneroisu/groq-go/extensions/e2b"
-	"github.com/conneroisu/groq-go/pkg/tools"
+	"github.com/emilpriver/groq-go"
+	"github.com/emilpriver/groq-go/extensions/e2b"
+	"github.com/emilpriver/groq-go/pkg/tools"
 )
 
 var (

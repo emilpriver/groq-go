@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/conneroisu/groq-go"
+	"github.com/emilpriver/groq-go"
 )
 
 var (

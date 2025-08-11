@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/conneroisu/groq-go"
-	"github.com/conneroisu/groq-go/pkg/groqerr"
-	"github.com/conneroisu/groq-go/internal/test"
+	"github.com/emilpriver/groq-go"
+	"github.com/emilpriver/groq-go/pkg/groqerr"
+	"github.com/emilpriver/groq-go/internal/test"
 	"github.com/stretchr/testify/assert"
 )
 

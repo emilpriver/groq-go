@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/conneroisu/groq-go/internal/test"
+	"github.com/emilpriver/groq-go/internal/test"
 	"github.com/stretchr/testify/assert"
 )
 

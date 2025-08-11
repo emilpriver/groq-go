@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/conneroisu/groq-go"
-	"github.com/conneroisu/groq-go/pkg/builders"
+	"github.com/emilpriver/groq-go"
+	"github.com/emilpriver/groq-go/pkg/builders"
 )
 
 type (

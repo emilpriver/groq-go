@@ -9,9 +9,9 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/conneroisu/groq-go"
-	"github.com/conneroisu/groq-go/extensions/composio"
-	"github.com/conneroisu/groq-go/internal/test"
+	"github.com/emilpriver/groq-go"
+	"github.com/emilpriver/groq-go/extensions/composio"
+	"github.com/emilpriver/groq-go/internal/test"
 )
 
 func main() {

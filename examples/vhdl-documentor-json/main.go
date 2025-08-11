@@ -13,7 +13,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/conneroisu/groq-go"
+	"github.com/emilpriver/groq-go"
 )
 
 var (

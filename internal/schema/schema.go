@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/conneroisu/groq-go/internal/omap"
+	"github.com/emilpriver/groq-go/internal/omap"
 )
 
 const (
