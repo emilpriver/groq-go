@@ -6,11 +6,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"reflect"
 	"strings"
 	"time"
 
-	"github.com/emilpriver/groq-go/internal/schema"
 	"github.com/emilpriver/groq-go/pkg/builders"
 	"github.com/emilpriver/groq-go/pkg/groqerr"
 )
@@ -86,19 +84,6 @@ func (c *Client) ChatCompletionJSON(
 	request ChatCompletionRequest,
 	output any,
 ) (err error) {
-	schema, err := schema.ReflectSchema(reflect.TypeOf(output))
-	if err != nil {
-		return err
-	}
-	request.ResponseFormat = &ChatResponseFormat{
-		JSONSchema: &JSONSchema{
-			Name:        schema.Title,
-			Description: schema.Description,
-			Schema:      *schema,
-			Strict:      true,
-		},
-		Type: FormatJSONSchema,
-	}
 	response, err := c.ChatCompletion(ctx, request)
 	if err != nil {
 		reqErr, ok := err.(*groqerr.APIError)

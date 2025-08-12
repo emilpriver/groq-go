@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/emilpriver/groq-go/pkg/builders"
 	"github.com/emilpriver/groq-go/internal/test"
+	"github.com/emilpriver/groq-go/pkg/builders"
 	"github.com/emilpriver/groq-go/pkg/tools"
 	"github.com/stretchr/testify/assert"
 )
