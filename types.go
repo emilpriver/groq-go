@@ -8,7 +8,6 @@ import (
 	"os"
 	"time"
 
-	"github.com/emilpriver/groq-go/internal/schema"
 	"github.com/emilpriver/groq-go/internal/streams"
 	"github.com/emilpriver/groq-go/pkg/builders"
 	"github.com/emilpriver/groq-go/pkg/groqerr"
@@ -224,7 +223,7 @@ type (
 		Description string `json:"description,omitempty"`
 		// Schema is the schema of the chat completion response format
 		// json schema.
-		Schema schema.Schema `json:"schema"`
+		Schema map[string]any `json:"schema"`
 		// Strict determines whether to enforce the schema upon the
 		// generated content.
 		Strict bool `json:"strict"`
